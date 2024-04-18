@@ -8,4 +8,8 @@ with st.sidebar:
 
     st.write(add_radio)
 
+with st.container(border=True):
+    st.write("This is inside the container created using with notation")
+    st.write(add_radio)
+
 st.write(add_radio)
